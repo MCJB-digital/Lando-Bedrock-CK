@@ -1,8 +1,7 @@
-# .lando.yml
-name: bedrock
+name: ck
 recipe: wordpress
 config:
   webroot: web
 services:
   appserver:
-    type: php:8.2 # Bedrock requires PHP >= 8.0
+    type: 'php:8.2'
